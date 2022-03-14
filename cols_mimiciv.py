@@ -1,6 +1,10 @@
 #cols.py
+cols=['arterial_bp_systolic','arterial_bp_mean','heart_rate','respiratory_rate','spo2','hemoglobin',
+      'hemoglobin_rate','glucose','body_temperature','fio2','sao2','cholesterol',
+      'alt','ast','tg','tc','ldl','hdl','ck','tni','tnt','nitroglycerin',
+      'diltiazem','esmolol','labetalol','verapamil','metoprolol_i','captopril',
+      'metoprolol','atorvastatin','simvastatin','aspirin','clopidogrel','bumetanide']
 medi=['metoprolol','atorvastatin','simvastatin','aspirin','clopidogrel']#,'captopril','bumetanide']
 inputs=['nitroglycerin','diltiazem','esmolol']#,'labetalol','verapamil','metoprolol_i']
-lab=['bp_systolic','bp_mean','heartrate','respiratory_rate','spo2','hemoglobin',
-      'glucose','body_temperature','fio2','sao2','alt','ast']#,'cholesterol','tg','tc','ldl','hdl','ck','tni','tnt']
-cols=lab+inputs+medi
+lab=['arterial_bp_systolic','arterial_bp_mean','heart_rate','respiratory_rate','spo2','hemoglobin',
+      'hemoglobin_rate','glucose','body_temperature','fio2','sao2']#,'cholesterol','alt','ast','tg','tc','ldl','hdl','ck','tni','tnt']
